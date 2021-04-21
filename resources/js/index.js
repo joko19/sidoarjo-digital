@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import RouteProcess from "./route/RouteProcess";
 import Landing from "./components/Landing";
 import Example from './components/Example'
+import 'semantic-ui-css/semantic.min.css'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Index() {
     return (
