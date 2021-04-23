@@ -1,0 +1,211 @@
+
+:root{
+  --TTCommons-Light: 'TTCommons-Light', cursive;
+}
+
+.header-custommode {
+  position: relative;
+  min-height: 768px;
+  /* background: url('../../img/landing/bannerlanding.webp') no-repeat; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 30;
+}
+
+.header-custommode::before {
+  content: '';
+  position: absolute;
+  /* background: linear-gradient(to right, #75da9b, #91cc09); */
+  background-color:gainsboro;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  z-index: -30;
+}
+
+.social-signin-container {
+  margin-top: 15%;
+}
+
+.social-signin:hover {
+  opacity: 0.9;
+}
+
+.social-signin-icon {
+  padding-right: 15px;
+}
+
+#sign-in {
+  margin-bottom: -20px;
+}
+
+#sign-in-header {
+  margin-bottom: 40px;
+}
+
+.form-title {
+  color: black;
+}
+
+.box-holder {
+  padding: 10px;
+}
+
+.form-sign-inup {
+  text-align: left;
+  border: 2px solid rgba(112, 128, 144, 0.199);
+  background-color: white;
+  box-shadow: 1px 3px 4px 2px rgba(32, 42, 53, 0.199);
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+}
+
+.red-text {
+  display: block;
+  color: red;
+  font-size: 10px;
+}
+
+#content-desktop-btnGoogle {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  #content-desktop-btnGoogle {
+    display: none;
+  }
+}
+
+.gambar-signb
+{
+  display: flex;
+  border-radius: 15px;
+  width: 250px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.logoowsign
+{
+  object-fit: cover;
+  width: 120px;
+  height: auto;
+}
+
+
+.sidebarsign
+{
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebarsign-content
+{
+  /* border: 2px solid red; */
+  /* width: 568px; */
+  margin: auto;
+}
+
+.sidebarsign-content h2
+{
+  margin-bottom: 0;
+  font-size: 60pt;
+}
+
+.sidebarsign-content p
+{
+  font-size: 20pt;
+  font-family: var(--TTCommons-Light);
+  font-weight: 400;
+}
+
+.main-containersign
+{
+  position: relative;
+  /* background: url('../../img/login/Banner2.jpg'); */
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 30;
+  overflow: hidden;
+  width: 100%;
+}
+
+.main-containersign::before {
+  content: '';
+  position: absolute;
+  background: linear-gradient(to right, #007DFE, #003F7F);
+  opacity: 0.92;
+  width: 100%;
+  height: 100%;
+  z-index: -30;
+}
+
+.main-contentsign
+{
+  background-color: white;
+  border-radius: 50px 0 0 50px;
+  overflow: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.main-containersign main
+{
+  width: inherit;
+  padding: 20px;
+}
+
+.auth-contentsign
+{
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 960px) {
+  .main-containersign
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-contentsign
+  {
+    border-radius: 15px 15px 0 0;
+  }
+  .sidebarsign-content
+  {
+    text-align: center;
+  }
+  .sidebarsign-content h2
+  {
+    font-size: 60px;
+  }
+
+  .sidebarsign-content p
+  {
+    font-size: calc(20px - 15%);
+  }
+
+  .sidebarsign-content{
+    background: transparent;
+    display: none;
+  }
+  
+  .sidebarsign{
+    height: 20vh !important;
+  }
+ 
+}

@@ -76,10 +76,10 @@ export default class Navbar extends Component {
                             </li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary mr-3">
+                        <a href="/login" class="btn btn-primary mr-3">
                             Login
                         </a>
-                        <a href="#" class="btn btn-danger text-white">
+                        <a href="/register" class="btn btn-danger text-white">
                             Daftar
                         </a>
                     </div>
