@@ -32,8 +32,8 @@ export default class Navbar extends Component {
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">
-                                    Feed
+                                <a class="nav-link text-white" href="/about">
+                                    About Sidoarjo
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
